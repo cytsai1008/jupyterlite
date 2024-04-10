@@ -1,4 +1,4 @@
-# JupyterLite Demo
+# JupyterLite
 
 [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://cytsai1008.github.io/jupyterlite)
 
