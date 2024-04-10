@@ -20,5 +20,10 @@ jobs:
           upstream_branch: "main"
           # Branch to merge into downstream
           downstream_branch: "main"
+
+          fetch_args: "--allow-unrelated-histories"
+          merge_args: "--allow-unrelated-histories"
+          push_args: "--allow-unrelated-histories"
+          
           # GitHub Bot token
           token: ${{ secrets.GITHUB_TOKEN }}
